@@ -1,0 +1,17 @@
+[package]
+name = "fizzbuzz"
+version = "0.1.0"
+authors = ["nanocryk <6422796+nanocryk@users.noreply.github.com>"]
+edition = "2018"
+
+[[bin]]
+name = "fizzbuzz"
+path = "main.rs"
+
+[dependencies]
+tokio = { version = "1.2", features = ["full"] } 
+futures = "0.3"
+
+tracing = "0.1"
+tracing-subscriber = "0.2.0"
+tracing-futures = "0.2.5"
